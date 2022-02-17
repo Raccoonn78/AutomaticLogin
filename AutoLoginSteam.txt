@@ -1,0 +1,5 @@
+`@echo off
+taskkill /f /im steam.exe
+@echo off
+Start C:\"Program Files (x86)"\Steam\steam.exe -login %login% %password%
+exit`
